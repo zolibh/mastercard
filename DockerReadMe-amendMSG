@@ -1,0 +1,22 @@
+# Amend msg in hello world
+
+edit the file /helloworld/hello.sh 
+
+vi /helloworld/hello.sh 
+
+# Build Container
+docker build --tag "docker-hello-world:latest" . --no-cache
+
+# Run Container
+
+docker run docker-hello-world:latest 
+
+# See Docker Images
+
+docker images
+
+# Stop Container
+docker stop 
+
+# Delete Container
+docker rm ZZ

@@ -1,0 +1,22 @@
+# Build Container
+docker build --tag "docker-hello-world:latest" . --no-cache
+
+# Run Container
+
+docker run docker-hello-world:latest 
+
+# Check is Container is Running
+docker exec myhello ps -ef | grep java
+
+# Get Jenksins passwd 
+docker logs < containerId >
+
+# See Docker Images
+
+docker images
+
+# Stop Container
+docker stop 
+
+# Delete Container
+docker rm ZZ
